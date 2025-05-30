@@ -1,6 +1,6 @@
 # Aryess Keyboard
 
-![Aryess](imgur.com image replace me!)
+![Aryess](https://raw.githubusercontent.com/pioz/aryess_keyboard/refs/heads/main/images/cover.jpg)
 
 * **Keyboard Maintainer**: [pioz](https://github.com/pioz)
 * **Firmware**: [QMK](https://qmk.fm/)
