@@ -27,8 +27,6 @@ wide range of modern features for both productivity and aesthetics.
   * **PCB and plate designed with [KiCad 9](https://www.kicad.org/)**
   * **Case designed with [Autodesk Fusion 360](https://www.autodesk.com/products/fusion-360/overview/)**
 
----
-
 ## Built it yourself
 
 You can build your own **Aryess** keyboard by following these steps.
