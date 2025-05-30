@@ -1,10 +1,10 @@
 # Aryess Keyboard
 
-![Aryess](imgur.com image replace me!)
+![Aryess](https://raw.githubusercontent.com/pioz/aryess_keyboard/refs/heads/main/images/cover.jpg)
 
-**Keyboard Maintainer**: [pioz](https://github.com/pioz)
-**Firmware**: QMK
-**Source**: https://github.com/pioz/aryess_keyboard
+* **Keyboard Maintainer**: [pioz](https://github.com/pioz)
+* **Firmware**: [QMK](https://qmk.fm/)
+* **Source**: https://github.com/pioz/aryess_keyboard
 
 Aryess is a custom mechanical keyboard designed and built from the ground up
 by [pioz](https://github.com/pioz). It features a completely custom PCB and a
