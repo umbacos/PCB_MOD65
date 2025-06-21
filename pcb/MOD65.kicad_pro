@@ -474,7 +474,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "aryess.kicad_pro",
+    "filename": "MOD65.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -510,8 +510,8 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "gerber",
-      "pos_files": "",
+      "plot": "production/MOD65_gerber/",
+      "pos_files": "production/",
       "specctra_dsn": "aryess.dsn",
       "step": "",
       "svg": "",
@@ -655,7 +655,7 @@
     "meta": {
       "version": 1
     },
-    "net_format_name": "jlcpcb",
+    "net_format_name": "KiCad",
     "page_layout_descr_file": "",
     "plot_directory": "",
     "space_save_all_events": true,
