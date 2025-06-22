@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 25,
+    "active_layer": 2,
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_netclasses": [],
@@ -48,7 +48,7 @@
       "conflict_shadows",
       "shapes"
     ],
-    "visible_layers": "00000000_00000000_08001030_5755ffff",
+    "visible_layers": "00000000_00000000_00000000_020200a5",
     "zone_display_mode": 0
   },
   "git": {
@@ -58,7 +58,7 @@
     "ssh_key": ""
   },
   "meta": {
-    "filename": "aryess.kicad_prl",
+    "filename": "MOD65.kicad_prl",
     "version": 5
   },
   "net_inspector_panel": {

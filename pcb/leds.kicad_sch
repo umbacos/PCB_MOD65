@@ -5,10 +5,10 @@
 	(uuid "569992c0-b361-43f4-8f15-de1dd2e5aff9")
 	(paper "A4")
 	(title_block
-		(title "cutlass")
+		(title "MOD65")
 		(date "2025-02-04")
 		(rev "1")
-		(company "pioz")
+		(company "umbacos")
 	)
 	(lib_symbols
 		(symbol "PCM_marbastlib-various:SK6812MINI-E"

@@ -5,10 +5,10 @@
 	(uuid "9534cc7c-a251-40ae-aac5-2ad864402a83")
 	(paper "A4")
 	(title_block
-		(title "cutlass")
+		(title "MOD65")
 		(date "2025-01-20")
 		(rev "1")
-		(company "pioz")
+		(company "umbacos")
 	)
 	(lib_symbols
 		(symbol "Device:D"
@@ -1135,6 +1135,12 @@
 		(uuid "679a6755-f9fb-4c23-83e8-0927623f77a9")
 	)
 	(junction
+		(at 173.99 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "689258d4-c85e-4b32-acd6-0ca98a52a1ea")
+	)
+	(junction
 		(at 133.35 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1307,6 +1313,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a3fa1795-919f-416b-b42e-28deea59641d")
+	)
+	(junction
+		(at 184.15 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a825a957-85e7-4955-b659-b3fb17b88896")
 	)
 	(junction
 		(at 85.09 81.28)
@@ -1898,7 +1910,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 134.62) (xy 186.69 134.62)
+			(xy 135.89 134.62) (xy 173.99 134.62)
 		)
 		(stroke
 			(width 0)
@@ -2788,6 +2800,16 @@
 	)
 	(wire
 		(pts
+			(xy 184.15 109.22) (xy 184.15 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec1b08c1-d218-4883-adbd-727287244631")
+	)
+	(wire
+		(pts
 			(xy 57.15 63.5) (xy 59.69 63.5)
 		)
 		(stroke
@@ -2805,6 +2827,16 @@
 			(type default)
 		)
 		(uuid "f01ab85a-230c-42c4-a987-feac60edfbe6")
+	)
+	(wire
+		(pts
+			(xy 173.99 134.62) (xy 186.69 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f089f2e3-3b39-4e54-acb3-6a88606fd903")
 	)
 	(wire
 		(pts
@@ -10821,6 +10853,110 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
+		(at 179.07 127 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7773f5f3-b87f-44f8-96ba-8bf4607fa433")
+		(property "Reference" "SW68"
+			(at 179.07 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RALT"
+			(at 179.07 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
+			(at 179.07 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 179.07 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RALT"
+			(at 181.356 133.604 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "CPG151101S11-16"
+			(at 179.07 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part" "C41430893"
+			(at 179.07 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" "-180.0"
+			(at 179.07 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Position Offset" "0.635,3.81"
+			(at 179.07 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e081332a-a8a4-49fc-a973-7f025673fa92")
+		)
+		(pin "2"
+			(uuid "1527ae87-6f3a-4b58-84df-73657307b8eb")
+		)
+		(instances
+			(project "MOD65"
+				(path "/b0797d7c-f6aa-44ba-bae5-ddfe355aa8cb/d8767eb3-523c-46a3-bcbc-e33d17e32ab2"
+					(reference "SW68")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
 		(at 204.47 55.88 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11230,6 +11366,130 @@
 			(project "cutlass"
 				(path "/b0797d7c-f6aa-44ba-bae5-ddfe355aa8cb/d8767eb3-523c-46a3-bcbc-e33d17e32ab2"
 					(reference "SW46")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 173.99 130.81 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7e498904-02f4-4abb-afa4-523b7e7bd937")
+		(property "Reference" "D68"
+			(at 176.53 129.5399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "D"
+			(at 176.53 132.0799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323"
+			(at 173.99 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 173.99 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 173.99 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 173.99 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 173.99 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "1N4148WS"
+			(at 173.99 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part" "C2128"
+			(at 173.99 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" ""
+			(at 173.99 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Position Offset" ""
+			(at 173.99 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "65c40ea2-ea35-4ffe-bff1-128fd3a9b950")
+		)
+		(pin "2"
+			(uuid "6417d9db-4125-4255-a98c-d1ecbfe54ede")
+		)
+		(instances
+			(project "MOD65"
+				(path "/b0797d7c-f6aa-44ba-bae5-ddfe355aa8cb/d8767eb3-523c-46a3-bcbc-e33d17e32ab2"
+					(reference "D68")
 					(unit 1)
 				)
 			)
