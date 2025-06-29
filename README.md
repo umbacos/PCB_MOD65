@@ -6,7 +6,7 @@
 * **Firmware**: [QMK](https://qmk.fm/)
 * **Source**: https://github.com/umbacos/MOD65
 
-MOD65 is a custom mechanical keyboard designed and built from the ground up
+MOD65 is a custom mechanical keyboard designed and built 
 by [umbacos](https://github.com/umbacos). It features a custom PCB based on
 the [Aryess](https://github.com/pioz/aryess_keyboard) design but with some
 improvements and differences.
