@@ -1,6 +1,6 @@
 # Mod65 Keyboard
 
-![Mod65](https://raw.githubusercontent.com/pioz/aryess_keyboard/refs/heads/main/images/cover.jpg)
+![Mod65]
 
 * **Keyboard Maintainer**: [umbacos](https://github.com/umbacos)
 * **Firmware**: [QMK](https://qmk.fm/)
