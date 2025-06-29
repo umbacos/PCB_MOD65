@@ -1,19 +1,20 @@
-# Aryess Keyboard
+# Mod65 Keyboard
 
-![Aryess](https://raw.githubusercontent.com/pioz/aryess_keyboard/refs/heads/main/images/cover.jpg)
+![Mod65](https://raw.githubusercontent.com/pioz/aryess_keyboard/refs/heads/main/images/cover.jpg)
 
-* **Keyboard Maintainer**: [pioz](https://github.com/pioz)
+* **Keyboard Maintainer**: [umbacos](https://github.com/umbacos)
 * **Firmware**: [QMK](https://qmk.fm/)
-* **Source**: https://github.com/pioz/aryess_keyboard
+* **Source**: https://github.com/umbacos/MOD65
 
-Aryess is a custom mechanical keyboard designed and built from the ground up
-by [pioz](https://github.com/pioz). It features a completely custom PCB and a
-wide range of modern features for both productivity and aesthetics.
+MOD65 is a custom mechanical keyboard designed and built from the ground up
+by [umbacos](https://github.com/umbacos). It features a custom PCB based on
+the [Aryess](https://github.com/pioz/aryess_keyboard) design but with some
+improvements and differences.
 
 ## Features
 
 * **RP2040 Pro Micro**
-* **65% ANSI layout**
+* **68% ANSI layout**
 * **Rotary encoder (knob)**
 * **[Unified Daughterboard](https://unified-daughterboard.github.io)** support
 * **RGB Matrix LEDs** (per-key RGB lighting)
@@ -21,7 +22,7 @@ wide range of modern features for both productivity and aesthetics.
 * **Configurable physical toggle switch**
 * **OLED display**
 * **O-ring gasket mount** (Friction fit)
-* **PCB compatible with [Bakeneko](https://github.com/kkatano/bakeneko-65) case**
+* **PCB compatible with most 68% cases **
 * **Built-in [Pomodoro Timer](https://en.wikipedia.org/wiki/Pomodoro_Technique)**
 * **Fully open source**
   * **PCB and plate designed with [KiCad 9](https://www.kicad.org/)**
@@ -29,14 +30,14 @@ wide range of modern features for both productivity and aesthetics.
 
 ## Built it yourself
 
-You can build your own **Aryess** keyboard by following these steps.
+You can build your own **MOD65** keyboard by following these steps.
 
 ### Order the PCB and Plate
 
 The PCB and plate production files are ready for you. You only need to upload them to JLCPCB:
 
-* **PCB Production File:** `pcb/production/aryess_2.zip`
-* **Plate Production File:** `plate/production/aryess_plate_2.zip`
+* **PCB Production File:** `pcb/production/mod65_2.zip`
+* **Plate Production File:** `plate/production/mod65_plate_2.zip`
 
 Go to [https://jlcpcb.com/](https://jlcpcb.com/), and upload both files.
 
@@ -50,14 +51,8 @@ You will receive fully assembled PCBs at home.
 
 ### Order the Case
 
-For the case, upload the file `case/Aryess Case.step` to a 3D printing service.
-
-I personally used [Weerg](https://www.weerg.com/) with these settings:
-
-* **Material:** Nylon PA12, MJF
-* The result is a very durable, professional-quality case.
-
-You can use any other 3D printing service if you prefer.
+For the case, upload the file `case/MOD65 Case.step` to a 3D printing service.
+You can use any 3D printing service if you prefer.
 
 ### Purchase the Extra Components
 
@@ -82,15 +77,15 @@ Some items can be found from different sellers depending on your country.
 
 ### Assembly
 
-Once you have received the PCB, plate, case, and all components, you can start assembling your Aryess keyboard.
+Once you have received the PCB, plate, case, and all components, you can start assembling your MOD65 keyboard.
 
 ## Compile the Firmware
 
 ```sh
-qmk compile -kb aryess -km default
+qmk compile -kb umbacos/mod65 -km default
 ```
 
-This command compiles the firmware for the Aryess keyboard using the `default` keymap.
+This command compiles the firmware for the MOD65 keyboard using the `default` keymap.
 
 ---
 
@@ -104,7 +99,7 @@ To flash the firmware, you must enter **boot mode** on the PCB.
   enter boot mode.
 * If firmware is already flashed:
 
-  * Hold the **BOOT** button located underneath the PCB, then plug in the USB
+  * Hold the **BOOT** button located on the PCB, then plug in the USB
     cable. Release the button once connected.
   * Alternatively, if this firmware is already running, press the key
     combination: `FN2 + ENTER`.
@@ -114,6 +109,6 @@ To flash the firmware, you must enter **boot mode** on the PCB.
 Once in boot mode, your computer should detect a new USB mass storage device
 named something like `RPI-RP2`.
 
-Copy the compiled `.uf2` file (e.g., `aryess_default.uf2`) directly into the
+Copy the compiled `.uf2` file (e.g., `umbacos/mod65_default.uf2`) directly into the
 root of that device. The board will automatically flash and reboot with the
 new firmware.

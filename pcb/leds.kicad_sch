@@ -826,6 +826,12 @@
 		(uuid "ad38294e-c53d-41c4-a556-1b4bc19a555a")
 	)
 	(junction
+		(at 162.56 129.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "add85437-298c-4c00-9522-0ae0c09d4844")
+	)
+	(junction
 		(at 116.84 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1155,6 +1161,16 @@
 	)
 	(wire
 		(pts
+			(xy 162.56 129.54) (xy 177.8 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "238268a7-1f6b-49c3-81b2-9ef7d499148b")
+	)
+	(wire
+		(pts
 			(xy 254 68.58) (xy 276.86 68.58)
 		)
 		(stroke
@@ -1322,16 +1338,6 @@
 			(type default)
 		)
 		(uuid "5c9b2c77-0666-4255-9fc9-fd942cf05796")
-	)
-	(wire
-		(pts
-			(xy 124.46 121.92) (xy 170.18 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5fb6fdbb-32b5-42bf-adac-098f42186d90")
 	)
 	(wire
 		(pts
@@ -1805,6 +1811,16 @@
 	)
 	(wire
 		(pts
+			(xy 124.46 121.92) (xy 154.94 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df9cd0ad-609d-4a15-bc48-43f1b73fa01a")
+	)
+	(wire
+		(pts
 			(xy 116.84 68.58) (xy 132.08 68.58)
 		)
 		(stroke
@@ -1895,7 +1911,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 129.54) (xy 177.8 129.54)
+			(xy 116.84 129.54) (xy 162.56 129.54)
 		)
 		(stroke
 			(width 0)
@@ -2479,6 +2495,116 @@
 			(project "cutlass"
 				(path "/b0797d7c-f6aa-44ba-bae5-ddfe355aa8cb/58bc1edb-79b5-4355-bdb1-623e0d7b414b"
 					(reference "LED35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_marbastlib-various:SK6812MINI-E")
+		(at 162.56 121.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1493bfce-a37e-4667-a5c1-ccc078bfae4a")
+		(property "Reference" "LED68"
+			(at 176.53 115.6014 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812MINI-E"
+			(at 176.53 118.1414 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_marbastlib-various:LED_6028R"
+			(at 162.56 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 162.56 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Reverse mount adressable LED (WS2812 protocol)"
+			(at 162.56 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "SK6812MINI-E"
+			(at 162.56 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part" "C5149201"
+			(at 162.56 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" ""
+			(at 162.56 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Position Offset" ""
+			(at 162.56 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "82e2ed29-d0a9-4e2f-83ab-4bc52b5bbea5")
+		)
+		(pin "1"
+			(uuid "8b1c43f8-7b0a-47c2-b05a-7f19f4bcc01e")
+		)
+		(pin "2"
+			(uuid "30e6580a-2283-419a-95ec-9821bd0f00d4")
+		)
+		(pin "3"
+			(uuid "70fb2bce-1008-46fb-9403-454c142a1085")
+		)
+		(instances
+			(project "MOD65"
+				(path "/b0797d7c-f6aa-44ba-bae5-ddfe355aa8cb/58bc1edb-79b5-4355-bdb1-623e0d7b414b"
+					(reference "LED68")
 					(unit 1)
 				)
 			)
